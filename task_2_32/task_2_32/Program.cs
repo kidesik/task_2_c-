@@ -1,0 +1,14 @@
+﻿Console.WriteLine("Введите сколько стоит монитор");
+double monitor = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Введите сколько стоит системный блок");
+double system_unit = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Введите сколько клавиатура");
+double keyboard = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Введите сколько мышка");
+double computer_mouse = Convert.ToDouble(Console.ReadLine());
+double sum_for_3 = (monitor + system_unit + keyboard + computer_mouse)*3;
+Console.WriteLine("Вот сколько будет стоить 3 компьютера: "+sum_for_3);
+Console.WriteLine("Введите сколько компьютеров нужно");
+double N = Convert.ToDouble(Console.ReadLine());
+double sum_for_n = (monitor + system_unit+keyboard + computer_mouse) * N ;
+Console.WriteLine("Вот сколько будет стоить нужное вам количество компьютеров: " + sum_for_n);
