@@ -1,0 +1,10 @@
+﻿Console.WriteLine("Введите возраст Тани");
+int X = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите возраст Мити");
+int Y = Convert.ToInt32(Console.ReadLine());
+double midle = (X + Y) / 2;
+Console.WriteLine("Среднее значение между возрастами: " +  midle);
+double result_x = X - midle;
+Console.WriteLine("Разница между средним и возрастом Тани: " +  result_x);
+double result_y = Y - midle;
+Console.WriteLine("Разница между средним и возрастом Тани: " + result_y);
