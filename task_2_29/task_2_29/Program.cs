@@ -1,0 +1,16 @@
+﻿Console.WriteLine("Введите координаты вершины A: ");
+int Ax = Convert.ToInt32(Console.ReadLine());
+int Ay = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите координаты вершины B: ");
+int Bx = Convert.ToInt32(Console.ReadLine());
+int By = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите координаты вершины C: ");
+int Cx = Convert.ToInt32(Console.ReadLine());
+int Cy = Convert.ToInt32(Console.ReadLine());
+double AB = Math.Sqrt(Math.Pow((Bx - Ax),2) + Math.Pow((By - Ay),2));
+double AC = Math.Sqrt(Math.Pow((Cx - Ax),2)  + Math.Pow((Cy - Ay),2) );
+double BC = Math.Sqrt(Math.Pow((Cx - Bx), 2) + Math.Pow((Cy - By), 2));
+double P = AB + AC + BC;
+double p = P / 2;
+double S = Math.Sqrt(p * (p - AB) * (p - AC) * (p - BC));
+Console.WriteLine("Периметр треугольника: " + P + "\n" + "Площадь треугольника: " + S);

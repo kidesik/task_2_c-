@@ -1,0 +1,14 @@
+﻿Console.WriteLine("Введите координаты вершины A: ");
+int Ax = Convert.ToInt32(Console.ReadLine());
+int Ay = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите координаты вершины B: ");
+int Bx = Convert.ToInt32(Console.ReadLine());
+int By = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите координаты вершины C: ");
+int Cx = Convert.ToInt32(Console.ReadLine());
+int Cy = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите координаты вершины D: ");
+int Dx = Convert.ToInt32(Console.ReadLine());
+int Dy = Convert.ToInt32(Console.ReadLine());
+double S = (Math.Abs((Ax - Bx)*(Ay + By) + (Bx - Cx)*(By + Cy) + (Cx - Dx)*(Cy + Dy) + (Dx - Ax)*(Dy + Ay))) / 2;
+Console.WriteLine("Площадь выпуклого четырехугольника: " + S);

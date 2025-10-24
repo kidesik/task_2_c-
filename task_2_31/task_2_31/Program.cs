@@ -1,0 +1,14 @@
+﻿Console.WriteLine("Введите стоимость 1 кг конфет");
+double candy = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Введите стоимость 1 кг печенья");
+double cookes = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Введите стоимость 1 кг яблок");
+double apple = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Введите сколько кг конфет купили");
+double x  = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите сколько кг печенья купили");
+double y = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите сколько кг яблок купили");
+double z = Convert.ToInt32(Console.ReadLine());
+double result = x*candy + y*cookes + z*apple;
+Console.WriteLine("Итоговая сумма:" + result);
