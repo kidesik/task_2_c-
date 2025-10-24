@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\task_2_8\task_2_8\bin\Debug\net8.0\task_2_8.exe
+C:\Users\User\source\repos\task_2_8\task_2_8\bin\Debug\net8.0\task_2_8.deps.json
+C:\Users\User\source\repos\task_2_8\task_2_8\bin\Debug\net8.0\task_2_8.runtimeconfig.json
+C:\Users\User\source\repos\task_2_8\task_2_8\bin\Debug\net8.0\task_2_8.dll
+C:\Users\User\source\repos\task_2_8\task_2_8\bin\Debug\net8.0\task_2_8.pdb
+C:\Users\User\source\repos\task_2_8\task_2_8\obj\Debug\net8.0\task_2_8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\task_2_8\task_2_8\obj\Debug\net8.0\task_2_8.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\task_2_8\task_2_8\obj\Debug\net8.0\task_2_8.AssemblyInfo.cs
+C:\Users\User\source\repos\task_2_8\task_2_8\obj\Debug\net8.0\task_2_8.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\task_2_8\task_2_8\obj\Debug\net8.0\task_2_8.dll
+C:\Users\User\source\repos\task_2_8\task_2_8\obj\Debug\net8.0\refint\task_2_8.dll
+C:\Users\User\source\repos\task_2_8\task_2_8\obj\Debug\net8.0\task_2_8.pdb
+C:\Users\User\source\repos\task_2_8\task_2_8\obj\Debug\net8.0\task_2_8.genruntimeconfig.cache
+C:\Users\User\source\repos\task_2_8\task_2_8\obj\Debug\net8.0\ref\task_2_8.dll
